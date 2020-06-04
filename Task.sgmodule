@@ -6,43 +6,43 @@
 
 # > TestFlight公测监控 (By @syzzzf)
 # 需要自己填appkey
-TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js,type=cron,cronexp=0 0 * * * *
+#TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js,type=cron,cronexp=0 25 0 * * *
 # > 每日一句+ 蚂蚁森林收能量
-每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
+每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 35 7 * * *
 
 # 签到脚本
 
 #  NobyDa
 # > 京东
-京东 = type=cron,cronexp=0 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+京东 = type=cron,cronexp=1 25 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
 # > 爱奇艺
-爱奇艺 = type=cron,cronexp=5 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
+爱奇艺 = type=cron,cronexp=2 25 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
 # > 吾爱破解
-吾爱破解 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
+吾爱破解 = type=cron,cronexp=3 25 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
 # @chavyleung
 # 网易云音乐
 # 浏览器访问并登录: https://music.163.com/m/login
-网易云音乐 = type=cron,cronexp=0 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0
+网易云音乐 = type=cron,cronexp=4 25 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0
 # 人人视频
 # 打开 APP, 访问下`个人中心`
-人人视频 = type=cron,cronexp=15 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0
+人人视频 = type=cron,cronexp=5 25 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0
 # 腾讯视频
 # 1.手机浏览器访问并登录: https://film.qq.com/
-腾讯视频 = type=cron,cronexp=35 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
+腾讯视频 = type=cron,cronexp=6 25 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
 # 美团
 # 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
-美团 = type=cron,cronexp=40 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0
+美团 = type=cron,cronexp=7 25 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0
 # > 京东618
-京东618=type=cron,cronexp="10,20,30,40,50 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.js,wake-system=true,timeout=600
+京东618=type=cron,cronexp="10,20,30,40,50 160 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.js,wake-system=true,timeout=600
 京东618炸弹 = type=cron,cronexp="0 10,12,18,20 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.boom.js,wake-system=true
 # > 饿了么   (By @syzzzf)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
-饿了么 = type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
+饿了么 = type=cron,cronexp=8 25 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
 # > 微博 & 微博钱包 (By @Macsuny)
 #1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
-微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+微博(钱包) = type=cron,cronexp=9 25 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
 # > 微信小程序-活动抽奖 (By @makexp & @zZPiglet)
 #打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
-活动抽奖 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js
+活动抽奖 = type=cron,cronexp=10 25 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js

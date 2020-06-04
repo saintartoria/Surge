@@ -4,9 +4,6 @@
 
 [Script]
 
-# > TestFlight公测监控 (By @syzzzf)
-# 需要自己填appkey
-#TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js,type=cron,cronexp=0 25 0 * * *
 # > 每日一句+ 蚂蚁森林收能量
 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 35 7 * * *
 

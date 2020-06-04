@@ -4,7 +4,7 @@
 
 [Script]
 # > 每日天气
-每日天气 = script-path=https://raw.githubusercontent.com/saintartoria/QuantumultX/master/Scripts/weather_pro.js,type=cron,cronexp=0 35 14 * * *
+每日天气 = script-path=https://raw.githubusercontent.com/saintartoria/QuantumultX/master/Scripts/weather_pro.js,type=cron,wake-system=1,cronexp=0 35 14 * * *
 
 # > 每日一句+ 蚂蚁森林收能量
 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 35 14 * * *

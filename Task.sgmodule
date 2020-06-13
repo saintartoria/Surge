@@ -25,8 +25,6 @@
 # 腾讯视频
 # 1.手机浏览器访问并登录: https://film.qq.com/
 腾讯视频 = type=cron,cronexp=11 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
-#腾讯新闻
-腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js
 # 美团
 # 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
 美团 = type=cron,cronexp=13 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0

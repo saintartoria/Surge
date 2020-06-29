@@ -1,2 +1,5 @@
+#!name=SSID助手
+#!desc=SSID助手
+#!system=ios
 [Script]
 SSID助手 = debug=1,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/SSID%E5%8A%A9%E6%89%8B.js,type=event,event-name=network-changed,control-api=true

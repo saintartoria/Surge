@@ -1,2 +1,5 @@
+#!name=SSID
+#!desc=SSID
+#!system=ios
 [Script]
 SSID = debug=1,script-path=,type=event,event-name=network-changed,control-api=true

@@ -39,9 +39,9 @@ cron "7 15 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 # > 万达电影
 万达电影 = type=cron,cronexp=19 15 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
 # > 腾讯新闻
-#腾讯新闻 = type=cron,cronexp=15 */8 6-23 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Loon/master/Scripts/txnews.js,script-update-interval=0
+腾讯新闻 = type=cron,cronexp=15 */8 6-23 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Loon/master/Scripts/txnews.js,script-update-interval=0
 # > 惠头条签(By 红鲤鱼与绿鲤鱼与驴)
 #时段签到, 阅读数据, 小视频和视频 4个cookie
 #惠头条 = type=cron,cronexp=*/3 6-23/1 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/saintartoria/QuantumultX/master/Scripts/htt_task.js
 # > 趣看天下(By 红鲤鱼与绿鲤鱼与驴)
-#趣看天下 = type=cron,cronexp=*/3 0-20/1 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/qktx_task.js
+#趣看天下 = type=cron,cronexp=*/3 6-23/1 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/qktx_task.js

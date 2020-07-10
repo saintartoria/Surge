@@ -45,8 +45,8 @@ cron "7 15 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 腾讯新闻 = type=cron,cronexp=15 */8 6-23 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Loon/master/Scripts/txnews.js,script-update-interval=0
 # > 惠头条签
 #时段签到, 阅读数据, 小视频和视频 4个cookie
-惠头条 = type=cron,cronexp=30 */2 0-11 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/saintartoria/QuantumultX/master/Scripts/htt_task.js
-惠头条 = type=cron,cronexp=30 1,31 12-23 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/saintartoria/QuantumultX/master/Scripts/htt_task.js
+惠头条 = type=cron,cronexp=30 */2 6-17 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/saintartoria/QuantumultX/master/Scripts/htt_task.js
+惠头条 = type=cron,cronexp=30 1,31 18-23 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/saintartoria/QuantumultX/master/Scripts/htt_task.js
 # > 中青看点
 # 进入app，进入任务中心或者签到一次,即可获取Cookie. 阅读一篇文章，获取阅读请求body，并获取阅读时长，在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
 中青看点 = type=cron,cronexp=35 */6 7-17 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0

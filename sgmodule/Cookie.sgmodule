@@ -35,8 +35,6 @@ elemGetCookies.js = script-path=https://raw.githubusercontent.com/nzw9314/Quantu
 # 薅羊毛 (By @红鲤鱼与绿鲤鱼与驴)
 # > 腾讯新闻
 腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/saintartoria/Loon/master/Scripts/txnews.js, requires-body=true
-# > 惠头条
-惠头条cookie= type=http-request,pattern=https:\/\/api\.cashtoutiao\.com,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/htt_cookie.js, requires-body=true
 # > 中青看点
 中青看点 = type=http-request,pattern=https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign),script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
@@ -44,4 +42,4 @@ elemGetCookies.js = script-path=https://raw.githubusercontent.com/nzw9314/Quantu
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% , *.youth.cn, ios.baertt.com, music.163.com, weibo.com, *.iqiyi.com, *.video.qq.com, *.acfun.cn, *.rr.tv, h5.ele.me, *.m.163.com, *.y.qq.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com, api.inews.qq.com, *.youth.cn, api.cashtoutiao.com, user-api-prd-mx.wandafilm.com
+hostname = %APPEND% , *.youth.cn, ios.baertt.com, music.163.com, weibo.com, *.iqiyi.com, *.video.qq.com, *.acfun.cn, *.rr.tv, h5.ele.me, *.m.163.com, *.y.qq.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com, api.inews.qq.com, *.youth.cn, user-api-prd-mx.wandafilm.com

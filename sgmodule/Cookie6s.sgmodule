@@ -16,8 +16,7 @@
 # > 海底捞
 # 请先按下述方法进行配置，进入"海底捞"app，手动签到一次或点击"签到"，若弹出"首次写入海底捞等级 Token 成功"及"首次写入海底捞签到 Cookie 成功"即可正常食用，其他提示或无提示请发送日志信息至 issue。
 到 cron 设定时间自动签到时，若弹出"海底捞 - 签到成功"即完成签到，其他提示或无提示请发送日志信息至 issue。
-海底捞Cookie = type=http-request,pattern=https:\/\/superapp\.kiwa-tech\.com\/app\/coupon\/customerLevelShow requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js
-海底捞Cookie = type=http-request,pattern=https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/getSignInfo script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js
+海底捞Cookie = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,type=http-request,pattern=^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$
 
 [MITM]
 hostname = %APPEND% api.inews.qq.com, *.bilibili.com, manga.bilibili.com, api.m.jd.com, superapp.kiwa-tech.com, activity-1.m.duiba.com.cn

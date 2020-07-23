@@ -1,5 +1,5 @@
-#!name=Cookie 
-#!desc=该模块适用于定时签到脚本的Cookie获取.
+#!name=薅羊毛Cookie 
+#!desc=该模块适用于定时签到脚本的薅羊毛Cookie获取.
 #!system=ios
 
 [Script]

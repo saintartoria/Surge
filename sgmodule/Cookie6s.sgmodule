@@ -1,0 +1,21 @@
+#!name=Cookie 
+#!desc=该模块适用于定时签到脚本的Cookie获取. 集成全部: NobyDa、Chavy以及个人收集常用签到脚本. 您可以在使用后手动将其禁用，以免产生不必要的MITM.
+#!system=ios
+
+[Script]
+# 签到脚本
+# NobyDa
+# > 京东
+# 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
+京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+# > 哔哩哔哩漫画
+哔哩哔哩漫画Cookie = type=http-request,pattern=https:\/\/manga\.bilibili\.com\/.*\.User\/GetWallet,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
+# > 哔哩哔哩
+# 浏览器访问并登录: https://www.bilibili.com 或 https://live.bilibili.com 系统提示:获取Cookie: 成功
+哔哩哔哩Cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js,type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?
+# > 海底捞
+海底捞Cookie = type=http-request,pattern=https:\/\/superapp\.kiwa-tech\.com\/app\/coupon\/customerLevelShow requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js
+海底捞Cookie = type=http-request,pattern=https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/getSignInfo script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js
+
+[MITM]
+hostname = %APPEND% api.inews.qq.com, *.bilibili.com, manga.bilibili.com, api.m.jd.com, superapp.kiwa-tech.com, activity-1.m.duiba.com.cn

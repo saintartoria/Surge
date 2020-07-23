@@ -16,6 +16,6 @@
 # 如需银瓜子转硬币，取消下方注释
 瓜子转硬币 = type=cron,cronexp=7 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=0
 # > 海底捞
-# 请先按下述方法进行配置，进入"海底捞"app，手动签到一次或点击"签到"，若弹出"首次写入海底捞等级 Token 成功"及"首次写入海底捞签到 Cookie 成功"即可正常食用，其他提示或无提示请发送日志信息至 issue。
-到 cron 设定时间自动签到时，若弹出"海底捞 - 签到成功"即完成签到，其他提示或无提示请发送日志信息至 issue。
-海底捞 = type=cron,cronexp=9 15 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js,script-update-interval=0
+# 海底捞
+# 打开APP 然后手动签到 1 次
+海底捞 = type=cron,cronexp=25 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,script-update-interval=0

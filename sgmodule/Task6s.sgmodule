@@ -41,4 +41,4 @@
 # > 海底捞
 # 海底捞
 # 打开APP 然后手动签到 1 次
-海底捞 = type=cron,cronexp=9 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,script-update-interval=0
+海底捞 = type=cron,cronexp=9 15 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js,script-update-interval=0

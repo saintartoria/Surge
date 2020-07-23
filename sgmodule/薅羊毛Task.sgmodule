@@ -1,6 +1,6 @@
   
-#!name=Task
-#!desc=该模块适用于定时签到
+#!name薅羊毛=Task
+#!desc=该模块适用于薅羊毛签到
 #!system=ios
 
 [Script]

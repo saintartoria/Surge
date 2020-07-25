@@ -8,40 +8,37 @@
 # > 每日一句+ 蚂蚁森林收能量
 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=10 30 7 * * *
 机场流量 = type=cron,cronexp=0 0 7-23/1 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js
+
 # 签到脚本
+# lxk0301
+# > 京东农场 (By liuxiaoyucc、lxk0301 & iepngs)
+# 京东App - 右下角"我的"- 游戏与互动- 东东农场
+京东农场= type=cron,cronexp=5 6-18/6 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js
+# > 京东萌宠 (By liuxiaoyucc、lxk0301 & iepngs)
+# 京东App - 右下角"我的"- 游戏与互动-东东萌宠
+京东萌宠= type=cron,cronexp=5 6-18/6 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
+# > 京东宠汪汪 (By uniqueque、lxk0301 & iepngs)
+# 京东App - 右下角"我的"- 游戏与互动-宠汪汪
+京东宠汪汪= type=cron,cronexp=15 */3 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js
+# > 京东种豆得豆 (By uniqueque、lxk0301 & iepngs)
+# 京东App - 右下角"我的"- 游戏与互动-种豆得豆
+京东种豆得豆= type=cron,cronexp=1 7-21/2 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js
+# > 京东摇钱树 (By lxk0301)
+# 京东App - 右下角"我的"- 游戏与互动-摇钱树
+京东摇钱树=type=cron,cronexp=3 */2 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_moneyTree.js
+# > 京东加速 (By lxk0301)
+# 京东App - 右下角"我的"- 游戏与互动-天天加速
+京东加速=type=cron,cronexp=8 */3 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_speed.js
 
 #  NobyDa
 吾爱签到 = type=cron,cronexp=59 14 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 # > 京东
 京东 = type=cron,cronexp=1 15 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
-# > 京东农场 (By liuxiaoyucc、lxk0301 & iepngs)
-# 京东App - 右下角"我的"- 游戏与互动- 东东农场
-京东农场= type=cron,cronexp=21 15 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js
-
-# > 京东萌宠 (By liuxiaoyucc、lxk0301 & iepngs)
-# 京东App - 右下角"我的"- 游戏与互动-东东萌宠
-京东萌宠= type=cron,cronexp=23 15 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
-
-# > 京东宠汪汪 (By uniqueque、lxk0301 & iepngs)
-# 京东App - 右下角"我的"- 游戏与互动-宠汪汪
-京东宠汪汪= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js
-
-# > 京东种豆得豆 (By uniqueque、lxk0301 & iepngs)
-# 京东App - 右下角"我的"- 游戏与互动-种豆得豆
-京东种豆得豆= type=cron,cronexp=8 7-21/3 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js
-
-# > 京东摇钱树 (By lxk0301)
-# 京东App - 右下角"我的"- 游戏与互动-摇钱树
-京东摇钱树=type=cron,cronexp=*/6 * * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_moneyTree.js
-
-# > 京东加速 (By lxk0301)
-# 京东App - 右下角"我的"- 游戏与互动-天天加速
-京东加速=type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_speed.js
 # > 爱奇艺
 爱奇艺 = type=cron,cronexp=3 15 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
 
-# @chavyleung
-# 网易云音乐
+# chavyleung
+# > 网易云音乐
 # 浏览器访问并登录: https://music.163.com/m/login
 cron "7 15 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
 # > 人人视频
@@ -53,6 +50,8 @@ cron "7 15 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 # > 美团
 # 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
 美团 = type=cron,cronexp=13 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,script-update-interval=0
+
+# 其他
 # > 饿了么   (By @syzzzf)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
 饿了么 = type=cron,cronexp=15 15 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0

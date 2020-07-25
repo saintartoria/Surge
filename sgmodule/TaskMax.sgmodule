@@ -4,9 +4,10 @@
 
 [Script]
 # > 每日天气
-每日天气 = type=cron,cronexp=0 35 7 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/Weather_Pro.js
+每日天气 = type=cron,cronexp=0 35 7 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/Weather_Pro.js
 # > 每日一句+ 蚂蚁森林收能量
-每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=10 30 7 * * *
+每日一句 = type=cron,cronexp=10 30 7 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,
+# > 机场流量
 机场流量 = type=cron,cronexp=0 0 7-23/1 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js
 
 # 签到脚本
@@ -40,7 +41,7 @@
 # chavyleung
 # > 网易云音乐
 # 浏览器访问并登录: https://music.163.com/m/login
-cron "7 15 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
+网易云音乐=type=cron,cronexp=7 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
 # > 人人视频
 # 打开 APP, 访问下`个人中心`
 人人视频 = type=cron,cronexp=9 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0

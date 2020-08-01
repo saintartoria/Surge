@@ -44,7 +44,7 @@
 # https://raw.githubusercontent.com/saintartoria/Clash/master/Scripts/txnews.js
 # > 中青看点
 # 进入app，进入任务中心或者签到一次,即可获取Cookie. 阅读一篇文章，获取阅读请求body，并获取阅读时长，在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
-中青看点 = type=cron,cronexp=35 */6 7-20 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
+中青看点 = type=cron,cronexp=35 */6 7-23 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
 
 # > 海底捞 @zZPiglet
 # 打开APP 然后手动签到 1 次

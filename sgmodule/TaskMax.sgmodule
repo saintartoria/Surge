@@ -22,26 +22,26 @@
 # lxk0301
 # > 京东农场 (By liuxiaoyucc、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动- 东东农场
-京东农场 = type=cron,cronexp=1 5 6-18/6 * * *,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_fruit.js
+京东农场 = type=cron,cronexp=1 5 6-18/6 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js
 # > 京东萌宠 (By liuxiaoyucc、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-东东萌宠
-京东萌宠 = type=cron,cronexp=3 5 6-18/6 * * *,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_pet.js
+京东萌宠 = type=cron,cronexp=3 5 6-18/6 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js
 # > 京东宠汪汪 (By uniqueque、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-宠汪汪
-京东宠汪汪 = type=cron,cronexp=5 15 */3 * * *,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_joy.js
+京东宠汪汪 = type=cron,cronexp=5 15 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js
 # > 宠汪汪积分兑换奖品
 宠汪汪积分兑换奖品 = type=cron,cronexp=1 0-16/8 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js
 # > 京东种豆得豆 (By uniqueque、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-种豆得豆
-京东种豆得豆 = type=cron,cronexp=7 1 7-21/2 * * *,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_plantBean.js
+京东种豆得豆 = type=cron,cronexp=7 1 7-21/2 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js
 # > 京东摇钱树 (By lxk0301)
 # 京东App - 右下角"我的"- 游戏与互动-摇钱树
-京东摇钱树 = type=cron,cronexp=9 3 */2 * * *,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_moneyTree.js
+京东摇钱树 = type=cron,cronexp=9 3 */2 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js
 # > 京东加速 (By lxk0301)
 # 京东App - 右下角"我的"- 游戏与互动-天天加速
-京东加速 = type=cron,cronexp=11 8 */3 * * *,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_speed.js
+京东加速 = type=cron,cronexp=11 8 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js
 # > 京东818手机节(By lxk0301)
-京东818手机节 = type=cron,cronexp=13 1 0-18/6 * * *,wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_818.js
+京东818手机节 = type=cron,cronexp=13 1 0-18/6 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js
 # chavyleung
 # > 网易云音乐
 # 浏览器访问并登录: https://music.163.com/m/login

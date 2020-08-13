@@ -8,7 +8,7 @@
 # > 每日一句+ 蚂蚁森林收能量
 每日一句 = type=cron,cronexp=10 30 7 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,
 # > 机场流量
-机场流量 = type=cron,cronexp=0 0 0,8,12,19 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js
+机场流量 = type=cron,cronexp=0 0 8-23/4 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js
 
 # 签到脚本
 #  NobyDa

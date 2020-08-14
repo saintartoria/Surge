@@ -4,6 +4,7 @@
 
 [Script]
 # > 京东热8超级盲盒
+^https?:\/\/(blindbox.)?(jd)\.com https://blindbox.jd.com 302
 京东热8超级盲盒 = requires-body=1,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/jd_r8.js,type=http-response,pattern=https:\/\/blindbox\.jd\.com\/
 [MITM]
 hostname = %APPEND% blindbox.jd.com

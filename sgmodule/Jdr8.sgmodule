@@ -1,9 +1,0 @@
-#!name=jdr8
-#!desc=东热8超级盲盒模块
-#!system=ios
-
-[Script]
-# > 京东热8超级盲盒
-京东热8超级盲盒 = requires-body=1,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/jd_r8.js,type=http-response,pattern=https:\/\/blindbox\.jd\.com\/
-[MITM]
-hostname = %APPEND% , blindbox.jd.com

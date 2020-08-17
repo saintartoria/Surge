@@ -46,4 +46,4 @@ bilibili live = type=http-response,requires-body=1,max-size=0,pattern=https://ap
 # > 人人视频 解锁AI原画 (by@george Jiang & R)
 人人视频 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js,type=http-response,pattern=^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail)
 [MITM]
-hostname = %APPEND% api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com, r.inews.qq.com, vip1.kuwo.cn, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.rr.tv, mp.weixin.qq.com
+hostname = %APPEND% api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ios.prod.ftl.netflix.com, api.m.jd.com, trade-acs.m.taobao.com, r.inews.qq.com, vip1.kuwo.cn, api.bilibili.com, app.bilibili.com, api.live.bilibili.com, api.rr.tv, mp.weixin.qq.com, raw.githubusercontent.com, gist.githubusercontent.com

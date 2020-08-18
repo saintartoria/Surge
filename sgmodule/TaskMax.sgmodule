@@ -40,24 +40,22 @@
 # > 京东加速 (By lxk0301)
 # 京东App - 右下角"我的"- 游戏与互动-天天加速
 京东加速 = type=cron,cronexp=11 8 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js
-# > 热8超级魔盒 (By lxk0301)
-热8超级魔盒 = type=cron,cronexp=1 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_mohe.js
-热8超级魔盒 = type=cron,cronexp=1 1-23/3 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_mohe.js
 # > 京小超 (By lxk0301)
-京小超 = type=cron,cronexp=11 1-23/2 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js
+京小超领金币 = type=cron,cronexp=11 1-23/2 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js
+京小超领蓝币 = type=cron,cronexp=7 15 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js
 # chavyleung
 # > 网易云音乐
 # 浏览器访问并登录: https://music.163.com/m/login
-网易云音乐 = type=cron,cronexp=7 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
+网易云音乐 = type=cron,cronexp=9 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js
 # > 人人视频
 # 打开 APP, 访问下`个人中心`
-人人视频 = type=cron,cronexp=9 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
+人人视频 = type=cron,cronexp=11 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
 # > 腾讯视频
 # 1.手机浏览器访问并登录: https://film.qq.com/
-腾讯视频 = type=cron,cronexp=11 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+腾讯视频 = type=cron,cronexp=13 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 # > 美团
 # 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
-美团 = type=cron,cronexp=13 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
+美团 = type=cron,cronexp=15 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
 
 # Sunert
 # > 腾讯新闻
@@ -70,12 +68,12 @@
 # 其他
 # > 饿了么   (By @syzzzf)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
-饿了么 = type=cron,cronexp=15 15 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
-饿了么打卡领红包 = type=cron,cronexp=17 15 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
+饿了么 = type=cron,cronexp=17 15 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
+饿了么打卡领红包 = type=cron,cronexp=19 15 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
 # > 微博 & 微博钱包 (By @Macsuny)
 #1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
-微博(钱包) = type=cron,cronexp=19 15 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+微博(钱包) = type=cron,cronexp=21 15 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
 # > 万达电影
-万达电影 = type=cron,cronexp=21 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
+万达电影 = type=cron,cronexp=23 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true

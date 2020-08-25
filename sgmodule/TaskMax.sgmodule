@@ -10,7 +10,7 @@
 # > 机场流量
 机场流量 = type=cron,cronexp=0 0 8-23/4 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js
 # > 机场签到
-机场签到 = type=cron,cronexp=1 0 0 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Demo/master/Scripts/checkin.js
+机场签到 = type=cron,cronexp=1 0 0 * * *,script-path= https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js
 # 签到脚本
 #  NobyDa
 # > 吾爱破解

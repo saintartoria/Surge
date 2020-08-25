@@ -78,5 +78,3 @@
 微博(钱包) = type=cron,cronexp=21 15 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
 # > 万达电影
 万达电影 = type=cron,cronexp=23 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
-[MITM]
-hostname = %APPEND% *.prprcloud.co

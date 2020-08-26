@@ -4,9 +4,6 @@
 
 [Script]
 # NobyDa
-# > 机场签到
-机场签到 = type=http-request, pattern=https:\/\/prprcloud\.co, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
-# NobyDa
 # > 吾爱破解
 吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 # > 京东

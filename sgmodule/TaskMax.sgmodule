@@ -3,6 +3,8 @@
 #!system=ios
 
 [Script]
+# > 生日倒计时
+ 生日倒计时 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js
 # > 每日天气
 每日天气 = type=cron,cronexp=0 35 7 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/Weather_Pro.js
 # > 每日一句+ 蚂蚁森林收能量

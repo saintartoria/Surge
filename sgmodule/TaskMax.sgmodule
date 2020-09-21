@@ -61,7 +61,7 @@ TF监控= type=cron,cronexp=5 */5 3-23 * * *,wake-system=1,timeout=20,script-pat
 美团 = type=cron,cronexp=15 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
 # > 顺丰速运
 # 打开 APP, 访问下我的顺丰 > 去签到 (访问下去签到的页面即可, 不用点签到), 系统提示: 获取Cookie: 成功
-顺丰速运 = type=cron,cronexp=17 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js
+顺丰速运 = type=cron,cronexp=17 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,wake-system=true
 # Sunert
 # > 腾讯新闻
 腾讯新闻 = type=cron,cronexp=0 */6 4-23 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/txnews.js,script-update-interval=0

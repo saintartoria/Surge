@@ -59,7 +59,8 @@ TF监控= type=cron,cronexp=5 */5 3-23 * * *,wake-system=1,timeout=20,script-pat
 # > 美团
 # 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
 美团 = type=cron,cronexp=15 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
-
+# > 顺丰速运
+顺丰速运 = type=cron,cronexp=17 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js
 # Sunert
 # > 腾讯新闻
 腾讯新闻 = type=cron,cronexp=0 */6 4-23 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/txnews.js,script-update-interval=0
@@ -71,12 +72,12 @@ TF监控= type=cron,cronexp=5 */5 3-23 * * *,wake-system=1,timeout=20,script-pat
 # 其他
 # > 饿了么   (By @syzzzf)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
-饿了么 = type=cron,cronexp=17 15 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
-饿了么打卡领红包 = type=cron,cronexp=19 15 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
+饿了么 = type=cron,cronexp=19 15 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
+饿了么打卡领红包 = type=cron,cronexp=21 15 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
 # > 微博 & 微博钱包 (By @Macsuny)
 #1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
-微博(钱包) = type=cron,cronexp=21 15 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+微博(钱包) = type=cron,cronexp=23 15 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
 # > 万达电影
-万达电影 = type=cron,cronexp=23 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
+万达电影 = type=cron,cronexp=25 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true

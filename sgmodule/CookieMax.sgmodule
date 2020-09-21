@@ -49,4 +49,4 @@
 微博钱包cookie = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,type=http-request,pattern=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?
 
 [MITM]
-hostname = %APPEND% api.weibo.cn, pay.sc.weibo.com, h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, music.163.com, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, sf-integral-sign-in.weixinjia.net
+hostname = %APPEND% api.weibo.cn, pay.sc.weibo.com, h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, music.163.com, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com

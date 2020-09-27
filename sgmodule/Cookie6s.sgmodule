@@ -31,4 +31,4 @@ Bili漫画Cookie = type=http-request,pattern=^https:\/\/passport\.biligame\.com\
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% api.inews.qq.com, *.bilibili.com, manga.bilibili.com, api.m.jd.com, superapp.kiwa-tech.com, superapp.kiwa-tech.com, activity-1.m.duiba.com.cn, *.youth.cn, ios.baertt.com, api.inews.qq.com, wapside.189.cn:9001
+hostname = %APPEND% passport.biligame.com, *.bilibili.com, manga.bilibili.com, api.m.jd.com, superapp.kiwa-tech.com, superapp.kiwa-tech.com, activity-1.m.duiba.com.cn, *.youth.cn, ios.baertt.com, api.inews.qq.com, wapside.189.cn:9001

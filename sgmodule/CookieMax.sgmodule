@@ -44,9 +44,9 @@
 # > 饿了么 (By @syzzzf)
 饿了么Cookies = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/elemGetCookies.js,type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$
 # > 微博 (By @Macsuny)
-微博 = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid
+微博 = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/page\/\w+\?gsid,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 # > 微博钱包 (By @Macsuny)
-微博钱包cookie = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,type=http-request,pattern=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?
+微博钱包cookie = type=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 
 [MITM]
 hostname = %APPEND% api.weibo.cn, pay.sc.weibo.com, h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, music.163.com, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com

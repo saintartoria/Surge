@@ -51,3 +51,6 @@
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
 微博(钱包) = type=cron,cronexp=23 15 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+# > 顺丰速运
+# 打开 APP, 访问下我的顺丰 > 去签到 (访问下去签到的页面即可, 不用点签到), 系统提示: 获取Cookie: 成功
+顺丰速运 = type=cron,cronexp=17 15 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0

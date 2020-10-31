@@ -48,6 +48,8 @@
 京东全民营业领金币 = type=cron,cronexp="0 0 * * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_collectProduceScore.js
 # > 京东白条 (By yangtingxiao)
 京东白条 = type=cron,cronexp="0 9 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js
+# > 京东时光机 (By yangtingxiao)
+京东时光机 = type=cron,cronexp="20 0-20/4 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js
 # chavyleung
 # > 电信签到
 电信签到 = type=cron,cronexp=5 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js

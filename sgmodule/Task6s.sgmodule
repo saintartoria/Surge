@@ -35,13 +35,13 @@
 京小超 = type=cron,cronexp="11 1-23/5 * * *",wake-system=1,timeout=320,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_superMarket.js
 京小超领蓝币 = type=cron,cronexp="0 0 0 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_blueCoin.js
 # > 京东手机狂欢城 (By lxk0301)
-京东手机狂欢城 = type=cron,cronexp="0 0,6,12,18 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_818.js
+京东手机狂欢城 = type=cron,cronexp="10 0,6,12,18 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_818.js
 # > 京东全民开红包 (By lxk0301)
 京东全民开红包 = type=cron,cronexp=1 1 * * *,wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_redPacket.js
 # > 摇京豆 (By lxk0301)
 摇京豆 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_club_lottery.js
 # > 京东星推官 (By lxk0301)
-京东星推官 = type=cron,cronexp="0 0 0,1 * * *",wake-system=1,timeout=600,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_xtg.js
+京东星推官 = type=cron,cronexp="5 0 0,1 * * *",wake-system=1,timeout=600,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_xtg.js
 # > 进店领豆 (By lxk0301)
 进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_shop.js
 # > 京东白条 (By yangtingxiao)

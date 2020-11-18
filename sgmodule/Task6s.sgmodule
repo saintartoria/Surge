@@ -7,7 +7,9 @@
 # chavyleung
 # > 电信签到
 电信签到 = type=cron,cronexp=5 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
-# > 哔哩哔哩漫画
+# > 电信金豆换话费
+电信金豆换话费 = type=cron,cronexp=0 10 */3 * *,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dianx.js
+> 哔哩哔哩漫画
 哔哩哔哩漫画 = type=cron,cronexp=7 15 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 # > bilibili
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com

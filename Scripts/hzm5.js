@@ -1,7 +1,7 @@
 const $ = new Env('互助码')
-$.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/hsvzgyqa3le5xpgqxvuak3dsdo5tifiqrf7lyyi/'
-$.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/8b4f04a07a21445a9a7da6ddb4159427/'
-$.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODc2NTEzMDAwMDAwMDAyMTQ3Nzk4NQ==/'
+$.zdUrl = 'http://api.turinglabs.net/api/v1/jd/bean/create/umoalat3gpfyrpvga6z5oefipy/'
+$.ncUrl = 'http://api.turinglabs.net/api/v1/jd/farm/create/cc07da43688b49979c7c3fd648063732/'
+$.mcUrl = 'http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDAxNzcwMDAwMDAwMzkwNzY2MDk=/'
 $.result = []
 
 !(async () => {

@@ -3,6 +3,10 @@
 #!system=ios
 
 [Script]
+# > 京东互助码
+京东互助码1 = type=cron,cronexp="1 15 2 1,10,20 * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/hzm1.js
+京东互助码2 = type=cron,cronexp="5 15 2 1,10,20 * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/hzm2.js
+京东互助码3 = type=cron,cronexp="10 15 2 1,10,20 * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/hzm3.js
 # > 生日倒计时
 生日倒计时 = type=cron,cronexp=10 0 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js
 # > 每日天气

@@ -4,7 +4,10 @@
 
 [Script]
 # 签到脚本
-
+# > 京东互助码
+京东互助码4 = type=cron,cronexp="1 15 2 1,10,20 * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/hzm4.js
+京东互助码5 = type=cron,cronexp="5 15 2 1,10,20 * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/hzm5.js
+京东互助码6 = type=cron,cronexp="15 15 2 1,10,20 * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/hzm6.js
 #  NobyDa
 # > 网易云音乐
 # 浏览器访问并登录: https://music.163.com/m/login
@@ -17,12 +20,12 @@
 # > 中青看点
 # 进入app，进入任务中心或者签到一次,即可获取Cookie. 阅读一篇文章，获取阅读请求body，并获取阅读时长，在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
 中青看点 = type=cron,cronexp=35 */3 7-23 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
-切换会话 = type=cron,cronexp=0 */3 7-23 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,wake-system=1
+切换会话 = type=cron,cronexp=0 */3 7-23 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js
 # > 微博 & 微博钱包 (By @Macsuny)
 #1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
-微博(钱包) = type=cron,cronexp=23 15 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+微博(钱包) = type=cron,cronexp=23 15 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 # > 顺丰速运
 # 打开 APP, 访问下我的顺丰 > 去签到 (访问下去签到的页面即可, 不用点签到), 系统提示: 获取Cookie: 成功
-顺丰速运 = type=cron,cronexp=17 15 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0
+顺丰速运 = type=cron,cronexp=17 15 0 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js

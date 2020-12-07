@@ -9,6 +9,8 @@
 # > 京东
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
 京东签到Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+# 打开微信, 搜索 "京东赚赚" 小程序即可获取 Cookie, 如果获取失败尝试杀掉微信后台重新一次获取
+京东赚赚获取 Cookie = type=http-request, pattern=^https\:\/\/api\.m\.jd\.com\/client\.action\?functionId\=interactIndex, requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.cookie.js
 # > 爱奇艺
 爱奇艺Cookie = type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
@@ -38,4 +40,4 @@
 饿了么Cookies = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/elemGetCookies.js,type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$
 
 [MITM]
-hostname = %APPEND% h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, *.youth.cn, ios.baertt.com, api.inews.qq.com
+hostname = %APPEND% h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, jdjoy.jd.com, draw.jdfcloud.com

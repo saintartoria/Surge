@@ -76,26 +76,26 @@
 # 活动入口：首页👉京东汽车👉屏幕右中部，车主福利
 京东汽车 = type=cron,cronexp="1 10 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car.js
 # > 天天提鹅
-天天提鹅 type=cron,cronexp="6-23 */3 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js
+# 天天提鹅 type=cron,cronexp="6-23 */3 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js
 # > 京东金融养猪猪
-京东金融养猪猪 type=cron,cronexp="12 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js
+# 京东金融养猪猪 type=cron,cronexp="12 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js
 # > 秒杀红包雨
-秒杀红包雨 = type=cron,cronexp="3 10 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_ms_redrain.js
+# 秒杀红包雨 = type=cron,cronexp="3 10 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_ms_redrain.js
 # > 金榜年终奖
-金榜年终奖 = type=cron,cronexp="1 10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_split.js
+# 金榜年终奖 = type=cron,cronexp="1 10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_split.js
 # > 领京豆额外奖励
-领京豆额外奖励 = type=cron,cronexp="5 10 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js
+# 领京豆额外奖励 = type=cron,cronexp="5 10 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js
 # > 健康抽奖机
-健康抽奖机 = type=cron,cronexp="3 10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_health.js
+# 健康抽奖机 = type=cron,cronexp="3 10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_health.js
 # > 京东快递签到
-京东快递签到 = type=cron,cronexp="5 10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js
+# 京东快递签到 = type=cron,cronexp="5 10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js
 # > 直播红包雨
 直播红包雨 = type=cron,cronexp="0 0,9,11,13,15,17,19,20,21,23 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js
 # > 数码加购京豆
-数码加购京豆 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_digital_floor.js
+# 数码加购京豆 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_digital_floor.js
 # > 苹果抽奖机
-苹果抽奖机 = type=cron,cronexp="7 10 0 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_apple_live.js
+# 苹果抽奖机 = type=cron,cronexp="7 10 0 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_apple_live.js
 # > PUBG
-PUBG = type=cron,cronexp="9 10 0 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pubg.js
+# PUBG = type=cron,cronexp="9 10 0 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pubg.js
 # > 京东直播
-京东直播 = type=cron,cronexp="0 10-20/5 12 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live.js
+# 京东直播 = type=cron,cronexp="0 10-20/5 12 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live.js

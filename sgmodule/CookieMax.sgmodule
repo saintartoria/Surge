@@ -41,4 +41,4 @@
 饿了么Cookies = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/elemGetCookies.js,type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$
 
 [MITM]
-hostname = %APPEND% h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, jdjoy.jd.com, draw.jdfcloud.com
+hostname = %APPEND% h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, jdjoy.jd.com, draw.jdfcloud.com, wq.jd.com

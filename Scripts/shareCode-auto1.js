@@ -8,18 +8,25 @@
 const $ = new Env("互助码");
 const shareCodes = [
   {
-    zd: $.getdata("zd_shareCode1") || "sptv55gzcksfquzoq5k2ubuj4i",
-    nc: $.getdata("nc_shareCode1") || "7b5f2dd4b5514226b280b702b2aab4f3",
-    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMjAwMDAwMDAyNzA4MjkwNw==",
-    ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5jEMC2T-1HlOkPu2",
-    jxgc: $.getdata("jx_shareCode1") || "ryE8p2m9DP5--yJXtZGtBg==",
+    zd: $.getdata("zd_shareCode1") || "jkj7vuzm36dqx7lx5inesakppi",
+    nc: $.getdata("nc_shareCode1") || "bec8f5cc216943b3b4e1cb3aa3aa1ad3",
+    mc: $.getdata("mc_shareCode1") || "MTAxODc2NTEzMDAwMDAwMDAzMTA4MjYxNQ==",
+    ddgc: $.getdata("dd_shareCode1") || "P04z54XCjVWnYaS5nJQCWnx3S8VyA",
+    jxgc: $.getdata("jx_shareCode1") || "GCSu_gJyPCMrzZJz1RwPeg==",
   },
   {
-    zd: $.getdata("zd_shareCode2") || "mlrdw3aw26j3x65llz7fs7wnbj6rdnkcjodphdi",
-    nc: $.getdata("nc_shareCode2") || "da070d31b4954c6baf29cfb514b43f8b",
-    mc: $.getdata("mc_shareCode2") || "MTAxODc2NTEzMjAwMDAwMDAyNzA4MjkwNw==",
-    ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5m9cZ2X53XsZlik8WVwg1HA",
+    zd: $.getdata("zd_shareCode2") || "olmijoxgmjutyhnkovlyucmbaxewvau6azkmxfq",
+    nc: $.getdata("nc_shareCode2") || "e92382b6b4584c0c8605c00f0299a5fb",
+    mc: $.getdata("mc_shareCode2") || "MTAxODc2NTEzMjAwMDAwMDAxNzQ4Mjg3Mw==",
+    ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5m9cZ2b51ShJk0MhxFiOnyE",
     jxgc: $.getdata("jx_shareCode2") || "he6NeuFqWppP3tGbCubSBA==",
+     },
+  {
+    zd: $.getdata("zd_shareCode2") || "2hxmiqyrgiclly4fp44guwccwbbq75o7xo3gbza",
+    nc: $.getdata("nc_shareCode2") || "bf5a90418fd44a5b8225b348fb10ee8e",
+    mc: $.getdata("mc_shareCode2") || "MTE1NDUyMjEwMDAwMDAwMzg5ODMzMTk=",
+    ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5jQKCmD82XtPiHiF0HLdZFHE",
+    jxgc: $.getdata("jx_shareCode2") || "Gbh-qwQPSiG-xiZj27PUJVUGVxGF9R_PFECIBNOH92k=",
      },
 ];
 $.result = [];

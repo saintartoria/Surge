@@ -3,6 +3,8 @@
 #!system=ios
 
 [Script]
+# > 京东互助码
+京东互助码3 = type=cron,cronexp="1 15 2 1,10,20 * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/shareCode-auto3.js
 # 签到脚本
 # chavyleung
 # > 电信签到

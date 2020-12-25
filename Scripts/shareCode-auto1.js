@@ -28,6 +28,13 @@ const shareCodes = [
     ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5jQKCmD82XtPiHiF0HLdZFHE",
     jxgc: $.getdata("jx_shareCode2") || "Gbh-qwQPSiG-xiZj27PUJVUGVxGF9R_PFECIBNOH92k=",
      },
+  {
+    zd: $.getdata("zd_shareCode2") || "e7lhibzb3zek3qgz4jwwqc4yauc22hhnkvpxq2q",
+    nc: $.getdata("nc_shareCode2") || "b683574ab6184f14bbf8bf996074982b",
+    mc: $.getdata("mc_shareCode2") || "MTEzMzI0OTE0NTAwMDAwMDA0MzA3MDUwNQ==",
+    ddgc: $.getdata("dd_shareCode2") || "P04z54XCjVWnYaS5jQKCmD82XtPiHiF0HLdZFHE",
+    jxgc: $.getdata("jx_shareCode2") || "Gbh-qwQPSiG-xiZj27PUJVUGVxGF9R_PFECIBNOH92k=",
+     },
 ];
 $.result = [];
 $.random = Math.floor(Math.random() * 60);

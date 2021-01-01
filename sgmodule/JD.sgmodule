@@ -90,7 +90,7 @@
 # > 京东快递签到
 # 京东快递签到 = type=cron,cronexp="5 10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js
 # > 直播红包雨
-直播红包雨 = type=cron,cronexp="0 0,9,11,13,15,17,19,20,21,23 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js
+# 直播红包雨 = type=cron,cronexp="0 0,9,11,13,15,17,19,20,21,23 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js
 # > 数码加购京豆
 # 数码加购京豆 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_digital_floor.js
 # > 苹果抽奖机
@@ -104,4 +104,4 @@
 # > 京东赚赚
 # 京东赚赚 = type=cron,cronexp="13 0 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdzz.js
 # > 超级直播间红包雨
-超级直播间红包雨 = type=cron,cronexp="30,31 20-23/1 26 12 *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/jd_scripts/once/jd_live_redRain_26.js
+# 超级直播间红包雨 = type=cron,cronexp="30,31 20-23/1 26 12 *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/jd_scripts/once/jd_live_redRain_26.js

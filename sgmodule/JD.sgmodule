@@ -21,3 +21,7 @@
 京东炸年兽🧨 = type=cron,cronexp="0 8,9,10 * * *",wake-system=1,timeout=22200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js
 # > 工业品爱消除
 工业品爱消除 = type=cron,cronexp="30 * * * *",wake-system=1,timeout=20000,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js
+# > 京东排行榜
+京东排行榜 = type=cron,cronexp=11 9 * * *,wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js
+# > 京东抽奖机
+京东抽奖机 = type=cron,cronexp=11 1 * * *,wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js

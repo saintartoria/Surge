@@ -7,11 +7,15 @@
 京东互助码 = type=cron,cronexp="1 5,10,15,20,25,30,35,40,45,50,55 2 1,10,20 * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/Langhaohao-123/BoxJs/master/Upload_ShareCode.js
 # > 京东
 京东 = type=cron,cronexp=5 15 23 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-宠汪汪积分兑换奖品 = type=cron,cronexp="0 0-16/8 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js
+宠汪汪积分兑换奖品 = type=cron,cronexp="0 0-16/8 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_reward.js
 # > 京小超
-京小超 = type=cron,cronexp="11 1-23/5 * * *",wake-system=1,timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js
-京小超兑换奖品 = type=cron,cronexp="0 0 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js
+京小超 = type=cron,cronexp="11 1-23/5 * * *",wake-system=1,timeout=320,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_superMarket.js
+京小超兑换奖品 = type=cron,cronexp="0 0 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_blueCoin.js
 # > 京东白条
 京东白条 = type=cron,cronexp="0 9 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js
 # > 京东金融养猪猪
-京东金融养猪猪 type=cron,cronexp="12 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js
+京东金融养猪猪 type=cron,cronexp="12 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_pigPet.js
+# > 京东收🧨
+京东收🧨 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js
+# > 京东炸年兽🧨
+京东炸年兽🧨 = type=cron,cronexp="0 8,9,10 * * *",wake-system=1,timeout=22200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js

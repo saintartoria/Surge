@@ -4,23 +4,20 @@
 
 [Script]
 # > 生日倒计时
-生日倒计时 = type=cron,cronexp=10 0 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js
+#生日倒计时 = type=cron,cronexp=10 0 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js
 # > 每日天气
 每日天气 = type=cron,cronexp=0 35 7 * * *,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/Weather_Pro.js
 # > 每日一句+ 蚂蚁森林收能量
-每日一句 = type=cron,cronexp=10 30 7 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,
+#每日一句 = type=cron,cronexp=10 30 7 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,
 # > 机场流量
 机场流量 = type=cron,cronexp="0 0 0,8-23/4 * * *",script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js
 # > TF监控
-TF监控= type=cron,cronexp=5 */5 3-23 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js
+#TF监控= type=cron,cronexp=5 */5 3-23 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js
 # 签到脚本
 #  NobyDa
 # > 爱奇艺
 爱奇艺 = type=cron,cronexp=3 15 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 # chavyleung
-# > 人人视频
-# 打开 APP, 访问下`个人中心`
-人人视频 = type=cron,cronexp=11 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
 # > 腾讯视频
 # 1.手机浏览器访问并登录: https://film.qq.com/
 腾讯视频 = type=cron,cronexp=13 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
@@ -33,9 +30,5 @@ TF监控= type=cron,cronexp=5 */5 3-23 * * *,wake-system=1,timeout=20,script-pat
 中青看点 = type=cron,cronexp=35 */6 7-23 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
 # 切换会话 = type=cron,cronexp=0 */6 7-23 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,wake-system=1
 # 其他
-# > 饿了么   (By @syzzzf)
-# 打开 APP, 访问下`我的`>`签到领红包`(左上角)
-饿了么 = type=cron,cronexp=19 15 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js
-饿了么打卡领红包 = type=cron,cronexp=21 15 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
 # > 万达电影
 万达电影 = type=cron,cronexp=25 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true

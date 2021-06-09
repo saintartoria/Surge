@@ -16,7 +16,7 @@
 # 签到脚本
 #  NobyDa
 # > 爱奇艺
-爱奇艺 = type=cron,cronexp=3 15 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+cron "20 15 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺
 # chavyleung
 # > 腾讯视频
 # 1.手机浏览器访问并登录: https://film.qq.com/
@@ -25,10 +25,8 @@
 # 打开 APP , 然后手动签到 1 次, (`首页` > `红包签到`)
 美团 = type=cron,cronexp=15 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
 # Sunert
-# > 中青看点
-# 进入app，进入任务中心或者签到一次,即可获取Cookie. 阅读一篇文章，获取阅读请求body，并获取阅读时长，在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
-中青看点 = type=cron,cronexp=35 */6 7-23 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
-# 切换会话 = type=cron,cronexp=0 */6 7-23 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,wake-system=1
-# 其他
+# > 饿了么
+饿了么_领取吃货豆 = type=cron,cronexp=10 00 * * *,timeout=60,script-path=https://gitlab.com/hellomatrix/lord/raw/master/script/eleme/eleme_daily.js
+饿了么_领取任务 = type=cron,cronexp=00 10 * * *,timeout=60,script-path=https://gitlab.com/hellomatrix/lord/raw/master/script/eleme/eleme_mission.js
 # > 万达电影
-万达电影 = type=cron,cronexp=25 15 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
+万达电影_每日签到 = type=cron,cronexp=35 0 * * *,timeout=10,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js

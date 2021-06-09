@@ -4,41 +4,20 @@
 
 [Script]
 # NobyDa
-# > 吾爱破解
-吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
-# > 京东
-# 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
-# 京东签到Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-获取京东Cookie = type=http-request,pattern=^https:\/\/wq\.jd\.com\/user_new\/info\/GetJDUserInfoUnion,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/JD_extra_cookie.js,script-update-interval=0
-# 打开微信, 搜索 "京东赚赚" 小程序即可获取 Cookie, 如果获取失败尝试杀掉微信后台重新一次获取
-京东赚赚获取 Cookie = type=http-request, pattern=^https\:\/\/api\.m\.jd\.com\/client\.action\?functionId\=interactIndex, requires-body=0, max-size=0, script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.cookie.js
 # > 爱奇艺
-爱奇艺Cookie = type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-
+http-request ^https?:\/\/iface(\d)?\.iqiyi\.com\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺
 # Chavyleung
 # > 腾讯视频
 # 手机浏览器访问并登录下https://film.qq.com/,随便选 1 部电影观看
 腾讯视频cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js,type=http-request,pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh
-# > 人人视频
-人人视频cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js,type=http-request,pattern=^https:\/\/api\.rr\.tv\/user\/profile
 # > 美团
-美团cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/
+http-request ^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js, requires-body=true
 # > 万达电影
-万达电影 = type=http-request,pattern=^https:\/\/user-api-prd-mx\.wandafilm\.com\/user\/islogin\.api,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js,debug=true
-# Sunert
-# > 腾讯新闻
-腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/saintartoria/Loon/master/Scripts/txnews.js, requires-body=true
-# 腾讯新闻2 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/txnews2.js, requires-body=true
-# 腾讯新闻3 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/saintartoria/Surge/master/Scripts/txnews3.js, requires-body=true
-# > 中青看点
-中青看点cookie = type=http-request,pattern=https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign),script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
-中青看点cookie = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
-中青看点cookie = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/red_packet,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
-中青看点cookie = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+万达电影_获取Cookie = type=http-request,pattern=^https?:\/\/user\-api\-prd\-mx\.wandafilm\.com\/user\/query_user_level\.api,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js
+万达电影_获取ActivityCode = type=http-request,pattern=^https?:\/\/cms\-activity\-api\-prd\-mx\.wandafilm\.com\/activity\/activity_count\.api\?activityCode=(\d*),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/wanda/wanda_checkin.js
 
 # 其他
 # > 饿了么 (By @syzzzf)
-饿了么Cookies = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/elemGetCookies.js,type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$
-
+饿了么_获取cookie = type=http-request,pattern=^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply,script-path=https://gitlab.com/hellomatrix/lord/raw/master/script/eleme/eleme_daily.js
 [MITM]
-hostname = %APPEND% h5.ele.me, user-api-prd-mx.wandafilm.com, www.52pojie.cn, i.meituan.com, *.rr.tv, *.video.qq.com, api.m.jd.com, *.iqiyi.com, *.youth.cn, ios.baertt.com, api.inews.qq.com, jdjoy.jd.com, draw.jdfcloud.com, wq.jd.com
+hostname = %APPEND% h5.ele.me, user-api-prd-mx.wandafilm.com,cms-activity-api-prd-mx.wandafilm.com, i.meituan.com, *.video.qq.com, api.m.jd.com, *.iqiyi.com, jdjoy.jd.com, draw.jdfcloud.com, wq.jd.com
